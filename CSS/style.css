@@ -7,3 +7,16 @@ div#third > p{
 	display: none;
 
 }
+
+h1 { 
+	display: none;
+	 }
+
+.right {
+	visibility: hidden;
+}
+
+#sixth {
+	visibility: visible;
+}
+
