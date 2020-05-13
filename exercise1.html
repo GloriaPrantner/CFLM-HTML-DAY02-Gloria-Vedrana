@@ -1,50 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title></title>
+	<meta charset="utf-8">
+	<title>Table exercise</title>
 </head>
 <body>
-	<table>
-		<tr>
-			<th>Image</th>
-			<th>Song</th>
-			<th>Video</th>
-		</tr>
+	<header>
+		<h1>Table of stuff</h1>
+	</header>
+	<main>
+	
+		<table border="1">
+			<tr>
+				<th>Image</th>
+				<th>Song</th>
+				<th>Video</th>
+			</tr>
 
-		<tr>
-			<td><img src="Images/Cat1.jpg" alt= Cat1></td>
-			<td><audio src="http://techslides.com/demos/samples/sample.m4a" controls>
-				<p>Your browser does not support audio.</p>
-			</audio></td>
-			<td><video width="500" autoloop muted controls>
-				<source src="http://techslides.com/demos/samples/sample.mp4" type="video/mp4">
-				<source src="/media/video/sample.avi" type="video/avi">
-				<p>Your browser does not support video.</p>
-			</video></td>
-		</tr>
-		
-		<tr>
-			<td><img src="Images/Cat2.jpg" alt= Cat2></td>
-			<td>
-				<audio controls>
-					<source src="http://techslides.com/demos/samples/sample.mp3" type="audio/mp3">
-					<source src="http://techslides.com/demos/samples/sample.ogg" type="audio/ogg">
-						<p>Your browser does not support audio.</p>
+			<tr>
+				<td><img src="Images/Cat1.jpg" alt= Cat1 width="500"></td>
+				<td><audio src="http://techslides.com/demos/samples/sample.m4a" controls>
+					<p>Your browser does not support audio.</p>
 				</audio></td>
-			<td></td>
-		</tr>
+				<td><video width="500" height="360" muted controls>
+					<source src="http://techslides.com/demos/samples/sample.mp4" type="video/mp4">
+					<source src="/media/video/sample.avi" type="video/avi">
+					<p>Your browser does not support video.</p>
+				</video></td>
+			</tr>
+			
+			<tr>
+				<td><img src="Images/Cat2.jpg" alt= Cat2 width="500"></td>
+				<td>
+					<audio controls>
+						<source src="http://techslides.com/demos/samples/sample.mp3" type="audio/mp3">
+						<source src="http://techslides.com/demos/samples/sample.ogg" type="audio/ogg">
+							<p>Your browser does not support audio.</p>
+					</audio></td>
+				<td>
+					<video width="500" height="360" muted controls>
+						<source src="http://techslides.com/demos/samples/sample.webm" type="video/webm">
+						<source src="/media/video/sample.voc" type="video/voc">
+					</video>
+				</td>
+			</tr>
 
-		<tr>
-			<td><img src="Images/Cat3.jpg" alt= Cat3></td>
-			<td><audio controls>
-				<source src="media/sample.aiff" type="audio/aiff">
-				<source src="media/sample.wma" type="audio/wma">
-				<source src="http://techslides.com/demos/samples/sample.mp3" type="audio/mp3">
-				<p>Your browser does not support audio.</p>
-			</audio></td>
-			<td></td>
-		</tr>
-	</table>
-
+			<tr>
+				<td><img src="Images/Cat3.jpg" alt= Cat3 width="500"></td>
+				<td><audio controls>
+					<source src="media/sample.aiff" type="audio/aiff">
+					<source src="media/sample.wma" type="audio/wma">
+					<source src="http://techslides.com/demos/samples/sample.mp3" type="audio/mp3">
+					<p>Your browser does not support audio.</p>
+				</audio></td>
+				<td>
+					<iframe width="500" height="360" src="https://www.youtube.com/embed/rNSnfXl1ZjU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</td>
+			</tr>
+		</table>
+	</main>
 </body>
 </html>
