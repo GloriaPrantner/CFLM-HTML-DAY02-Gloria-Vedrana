@@ -3,7 +3,6 @@ div {
 	margin: 5px;
 }
 
-div#third > p{
-	display: none;
-
+#third p {
+	font-size: 2em;
 }
